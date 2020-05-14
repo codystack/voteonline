@@ -35,8 +35,8 @@
     <div class="container pt-lg-7 pb-lg-5 position-relative zindex-100">
         <div class="row align-items-center justify-content-center justify-content-lg-start">
             <div class="col-md-8 col-lg-5 mb-5 mb-lg-0">
-                <h1 class="h1 text-center text-lg-left text-white mb-4">Start your business with <strong>Quick</strong>.</h1>
-                <p class="lead text-center text-lg-left text-white opacity-8">Build a beautiful, modern website with flexible Bootstrap components built from scratch.</p>
+                <h1 class="h1 text-center text-lg-left text-white mb-4">Create an online contest with <strong>Vote Online</strong>.</h1>
+                <p class="lead text-center text-lg-left text-white opacity-8">Own and run an online photo contest for your Peagents, Award Shows, Club Elections etc, for free or paid with our easy to use online voting platform. </p>
                 <form class=mt-5>
                     <div class="input-group input-group-lg mb-3">
                     <input type=text class=form-control placeholder="Enter your email" aria-label="Example text with button addon" aria-describedby=button-addon1>
