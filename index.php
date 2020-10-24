@@ -116,13 +116,28 @@ include ('./components/navbar.php');
     <section>
       <div class="container">
         <div class="row align-items-center justify-content-around o-hidden">
-          <div class="col-md-6 col-lg-5 mb-4 mb-md-0" data-aos="fade-right">
-            <img src="assets/img/desktop-app-1.jpg" alt="Image" class="rounded shadow">
-          </div>
+            <div class="col-xl-3 col-lg-4 col-md-3 d-flex mb-6 pt-3 pb-3 mb-md-0 aos-init aos-animate" data-aos="fade-right">
+              <div class="row justify-content-center">
+                <div class="col-8 col-md">
+                  <div class="mobile-screenshot rotate-left layer-2">
+                    <img src="assets/img/food-app-1.png" alt="Screenshot">
+                    <img src="assets/img/iphone-xr.svg" alt="iPhone XR">
+                  </div>
+                  <div class="decoration-wrapper d-none d-md-block">
+                    <div class="decoration middle-y scale-2" data-jarallax-element="40" style="z-index: 0; transform: translate3d(0px, 9.88965px, 0px);">
+                      <img class="bg-primary-2" src="" alt="deco-blob-8 decoration" data-inject-svg="">
+                    <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="position: absolute;"></div></div></div>
+                    <div class="decoration left top scale-2">
+                      <img class="bg-primary" src="" alt="deco-dots-6 decoration" data-inject-svg="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           <div class="col-lg-5 col-md-6" data-aos="fade-left">
-            <h3 class="h2">Powerful Discovery</h3>
-            <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-            <a href="#" class="lead hover-arrow">Start Discovering</a>
+            <h3 class="h2">Create, Launch and Manage</h3>
+            <p class="lead">Vote Online&trade; makes it easier to automate and manage voting contests for your Paegant, Award or Online Photo Contest. users can easily navigate through the contestants and vote for their prefered candidates.</p>
+            <a href="features" class="lead hover-arrow">See Features</a>
           </div>
         </div>
       </div>
@@ -134,19 +149,18 @@ include ('./components/navbar.php');
         <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
       </div>
       <img src="https://i.imgur.com/KDDYQN5.jpg" alt="Image" class="jarallax-img opacity-20">
-      <div class="container">
+      <div class="container mt-n5 pb-5">
         <div class="row justify-content-center text-center min-vh-50 align-items-center">
           <div class="col-xl-8 col-lg-9 col-md-10">
-            <a data-fancybox href="https://vimeo.com/40842620" class="btn btn-xlg btn-primary btn-round mx-auto mb-4" data-aos="fade-up">
-              <img class="icon" src="assets/img/icons/theme/media/play.svg" alt="play icon" data-inject-svg />
+            <h4 class="display-3">Build Your Online Contest</h4>
+            <p class="lead">You’ll love how fast you can get online and look amazing!<br> Whether for a beauty pageant, award show, club elections, creating yours free or paid just got easier, with Vote Online™ you can now create and manage your online contest on the go.</p>
+            <a data-fancybox href="get-started" class="btn btn-xlg btn-primary mx-auto mb-4" data-aos="fade-up">Get Started
             </a>
-            <h4 class="display-3">Changing the game.</h4>
-            <p class="lead">Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-primary-3 o-hidden has-divider">
+    <!--<section class="bg-primary-3 o-hidden has-divider">
       <div class="container pb-4 text-light">
         <div class="row justify-content-center text-center mb-6">
           <div class="col-xl-8 col-lg-9">
@@ -258,39 +272,30 @@ include ('./components/navbar.php');
       <div class="divider">
         <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
       </div>
-    </section>
+    </section>-->
 
 
     <section>
       <div class="container text-center">
         <div class="row mb-5">
           <div class="col">
-            <h5>Trusted by over 30,000 of the world’s leading companies</h5>
+            <h5>Trusted by Reputable Brands</h5>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-xl-8 col-lg-9">
             <ul class="d-flex flex-wrap justify-content-center list-unstyled">
               <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/apple.svg" alt="icon" data-inject-svg />
+                <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/keg.svg" alt="icon" data-inject-svg />
               </li>
               <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/buzzfeed.svg" alt="icon" data-inject-svg />
+                <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/gadgetit.svg" alt="icon" data-inject-svg />
               </li>
               <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/intercom.svg" alt="icon" data-inject-svg />
+                <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/tnq.svg" alt="icon" data-inject-svg />
               </li>
               <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/slack.svg" alt="icon" data-inject-svg />
-              </li>
-              <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/spotify.svg" alt="icon" data-inject-svg />
-              </li>
-              <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/target.svg" alt="icon" data-inject-svg />
-              </li>
-              <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3 opacity-20" src="assets/img/logos/brand/time.svg" alt="icon" data-inject-svg />
+                <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/powerup.svg" alt="icon" data-inject-svg />
               </li>
             </ul>
           </div>
