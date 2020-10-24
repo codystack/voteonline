@@ -31,7 +31,7 @@ include ('./components/navbar.php');
       <div class="container">
         <div class="row mb-4 text-center">
           <div class="col">
-            <h2 class="h1">Stunning layouts for your app</h2>
+            <h2 class="h1">Explore Freedom</h2>
           </div>
         </div>
         <div class="row text-center">
@@ -77,17 +77,13 @@ include ('./components/navbar.php');
             <ul class="nav flex-column" role="tablist">
               <li class="nav-item">
                 <a class="nav-link btn btn-light p-2 text-left active" href="#app-tab-1" data-toggle="tab" aria-controls="app-tab-1" aria-selected="true" role="tab">
-                  <img class="icon bg-primary" src="assets/img/icons/theme/design/subtract.svg" alt="subtract icon" data-inject-svg />Collections
+                  <img class="icon bg-primary" src="assets/img/icons/theme/design/subtract.svg" alt="subtract icon" data-inject-svg />User View
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link btn btn-light p-2 text-left" href="#app-tab-2" data-toggle="tab" aria-controls="app-tab-2" aria-selected="false" role="tab">
-                  <img class="icon bg-primary" src="assets/img/icons/theme/design/pixels.svg" alt="pixels icon" data-inject-svg />Discovery
+                  <img class="icon bg-primary" src="assets/img/icons/theme/design/pixels.svg" alt="pixels icon" data-inject-svg />Admin View
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-light p-2 text-left" href="#app-tab-3" data-toggle="tab" aria-controls="app-tab-3" aria-selected="false" role="tab">
-                  <img class="icon bg-primary" src="assets/img/icons/theme/design/saturation.svg" alt="saturation icon" data-inject-svg />Dark Mode</a>
               </li>
             </ul>
           </div>
@@ -107,14 +103,6 @@ include ('./components/navbar.php');
                   <div class="popover-hotspot bg-primary-2" style="top: 10%; left: 90%;" data-toggle="popover" title="Hotspot title" data-content="And here's some amazing content. It's very engaging. Right?"></div>
                   <div class="popover-hotspot bg-primary-2" style="top: 90%; left: 20%;" data-toggle="popover" title="Hotspot title" data-content="And here's some more amazing content. It's very engaging. Right?"></div>
                   <img src="assets/img/desktop-app-1.png" alt="Image" class="rounded shadow-lg">
-                </div>
-              </div>
-              <div class="tab-pane fade" id="app-tab-3" role="tabpanel" aria-labelledby="app-tab-3">
-                <div class="popover-image">
-                  <div class="popover-hotspot bg-primary-2" style="top: 25%; left: 10%;" data-toggle="popover" title="Hotspot title" data-content="And here's some amazing content. It's very engaging. Right?"></div>
-                  <div class="popover-hotspot bg-primary-2" style="top: 10%; left: 90%;" data-toggle="popover" title="Hotspot title" data-content="And here's some amazing content. It's very engaging. Right?"></div>
-                  <div class="popover-hotspot bg-primary-2" style="top: 90%; left: 20%;" data-toggle="popover" title="Hotspot title" data-content="And here's some more amazing content. It's very engaging. Right?"></div>
-                  <img src="assets/img/desktop-app-5.png" alt="Image" class="rounded shadow-lg">
                 </div>
               </div>
             </div>
@@ -139,20 +127,8 @@ include ('./components/navbar.php');
         </div>
       </div>
     </section>
-    <section class="pt-0">
-      <div class="container">
-        <div class="row align-items-center justify-content-around flex-row-reverse o-hidden">
-          <div class="col-md-6 col-lg-5 mb-4 mb-md-0" data-aos="fade-left">
-            <img src="assets/img/desktop-app-2.jpg" alt="Image" class="rounded shadow">
-          </div>
-          <div class="col-lg-5 col-md-6" data-aos="fade-right">
-            <h3 class="h2">Smart Management</h3>
-            <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
-            <a href="#" class="lead hover-arrow">Start Discovering</a>
-          </div>
-        </div>
-      </div>
-    </section>
+    
+    
     <section class="bg-primary-3 text-light has-divider jarallax" data-jarallax data-speed="0.2">
       <div class="divider flip-y">
         <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
@@ -284,111 +260,8 @@ include ('./components/navbar.php');
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <div class="row justify-content-center text-center mb-6">
-          <div class="col-xl-8 col-lg-9">
-            <h2 class="display-4 mx-xl-6">Built for scale</h2>
-            <p class="lead">
-              Vote Online&trade; gives you 100s of templates, unlimited pages & top grade hosting FREE. Upgrade to Premium and get even more.
-            </p>
-          </div>
-        </div>
-        <div class="row justify-content-center mb-3">
-          <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="NaN">
-            <div class="card card-body align-items-center ">
-              <div class="pt-md-2">
-                <h4>Basic</h4>
-              </div>
-              <div class="d-flex align-items-start pb-md-2">
-                <span class="h3">$</span>
-                <span class="display-4 mb-0">49</span>
-              </div>
-              <span class="text-small text-muted">Per user, per month</span>
-              <ul class="text-center list-unstyled my-2 my-md-4">
-                <li class="py-1">
-                  <span>10k Visitors/mo</span>
-                </li>
-                <li class="py-1">
-                  <span>10 Funnels, 50 Pages</span>
-                </li>
-                <li class="py-1">
-                  <span>Unlimited Transactions</span>
-                </li>
-                <li class="py-1">
-                  <span>Analytics</span>
-                </li>
-                <li class="py-1">
-                  <span>Integrations</span>
-                </li>
-                <li class="py-1">
-                  <span class="text-muted text-strikethrough">Audience Data</span>
-                </li>
-                <li class="py-1">
-                  <span class="text-muted text-strikethrough">Premium Templates</span>
-                </li>
-                <li class="py-1">
-                  <span class="text-muted text-strikethrough">White Labelling</span>
-                </li>
-              </ul>
-              <a href="#" class="btn btn-outline-primary">
-                Get Basic
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="NaN">
-            <div class="card card-body align-items-center shadow-3d">
-              <span class="badge badge-top badge-dark">Most Popular</span>
-              <div class="pt-md-2">
-                <h4>Professional</h4>
-              </div>
-              <div class="d-flex align-items-start pb-md-2">
-                <span class="h3">$</span>
-                <span class="display-4 mb-0">69</span>
-              </div>
-              <span class="text-small text-muted">Per user, per month</span>
-              <ul class="text-center list-unstyled my-2 my-md-4">
-                <li class="py-1">
-                  <span>10k Visitors/mo</span>
-                </li>
-                <li class="py-1">
-                  <span>10 Funnels, 50 Pages</span>
-                </li>
-                <li class="py-1">
-                  <span>Unlimited Transactions</span>
-                </li>
-                <li class="py-1">
-                  <span>Analytics</span>
-                </li>
-                <li class="py-1">
-                  <span>Integrations</span>
-                </li>
-                <li class="py-1">
-                  <span>Audience Data</span>
-                </li>
-                <li class="py-1">
-                  <span>Premium Templates</span>
-                </li>
-                <li class="py-1">
-                  <span class="text-muted text-strikethrough">White Labelling</span>
-                </li>
-              </ul>
-              <a href="#" class="btn btn-primary">
-                Get Pro
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <span>Interested in a custom plan? <a href="#" class="hover-arrow">Get in touch</a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="pt-0">
+    <section>
       <div class="container text-center">
         <div class="row mb-5">
           <div class="col">

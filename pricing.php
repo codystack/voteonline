@@ -1,5 +1,5 @@
 <?php
-$page = 'features';
+$page = 'pricing';
 include ('./components/header.php');
 include ('./components/navbar.php');
 ?>

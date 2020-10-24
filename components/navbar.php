@@ -11,8 +11,11 @@
           <div class="collapse navbar-collapse justify-content-end">
             <div class="py-2 py-lg-0">
               <ul class="navbar-nav">
-                <li class="nav-item <?php if($page=='features'){echo 'active';}?>">
+              <li class="nav-item <?php if($page=='features'){echo 'active';}?>">
                   <a href="features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item <?php if($page=='pricing'){echo 'active';}?>">
+                  <a href="pricing" class="nav-link">Pricing</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" onClick="tidioChatApi.open();" class="nav-link">Support</a>
