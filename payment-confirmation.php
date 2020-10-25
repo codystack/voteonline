@@ -1,8 +1,9 @@
 <?php
+header( "refresh:7;url=https://voteonline.com.ng" );
 include ('./components/header.php');
 ?>
 
-    <section class="min-vh-100 py-5">
+    <section class="min-vh-100-light py-5">
       <div class="container">
         <div class="row justify-content-center mb-md-6">
           <div class="col-auto">
@@ -11,79 +12,17 @@ include ('./components/header.php');
             </a>
           </div>
         </div>
-        <div class="row justify-content-center pt-3">
-          <div class="col-lg-5 col-md-6">
-            <div class="text-center mb-4">
-              <h1 class="mb-2">Get Started</h1>
-              <span>Enjoy Freedom to Create the Contest You Want.</span>
-            </div>
-          </div>
-        </div>
-        <div class="row">
+        <div class="row text-center py-3">
           <div class="col">
-            <form class="wizard">
-              <ul class="d-flex step-circles justify-content-center mb-5">
-                <li><a class="nav-link btn" href="#step-1">1</a>
-                </li>
-                <li><a class="nav-link btn" href="#step-2">2</a>
-                </li>
-                <li><a class="nav-link btn" href="#step-3">3</a>
-                </li>
-              </ul>
-              <div>
-                <div id="step-1" class="active">
-                  <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-5 col-md-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" required placeholder="First Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" required placeholder="Last Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="tel" class="form-control" required placeholder="Phone Number">
-                        <small class="text-muted">We will never share your name with others.</small>
-                      </div>
-                      <button class="btn btn-primary sw-btn-next btn-block">Next</button>
-                    </div>
-                  </div>
-                </div>
-                <div id="step-2" class="">
-                  <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-5 col-md-6">
-                      <div class="form-group">
-                        <input type="email" class="form-control" required placeholder="Email Address">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Company Name">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Event Name">
-                      </div>
-                      <button class="btn btn-primary sw-btn-next btn-block">Next</button>
-                    </div>
-                  </div>
-                </div>
-                <div id="step-3" class="">
-                  <div class="row justify-content-center">
-                    <div class="col-xl-4 col-lg-5 col-md-6">
-                      <div class="form-group">
-                        <textarea class="form-control" placeholder="Drop comments if you have any." rows="5"></textarea>
-                      </div>
-                      <hr>
-                      <div>
-                        <div class="custom-control custom-checkbox mb-3">
-                          <input type="checkbox" class="custom-control-input" id="custom-checkbox-example-1" required>
-                          <label class="custom-control-label" for="custom-checkbox-example-1">By signing up, you agree to our <a href="terms">Terms of Use</a> and <a href="privacy">Privacy Policy</a></label>
-                        </div>
-                      </div>
-                      <hr>
-                      <button class="btn btn-primary btn-block" type="submit">Complete Signup</button>
-                    </div>
-                  </div>
-                </div>
+            <div class="decoration-check mb-4">
+              <div class="decoration">
+                <img class="bg-primary-2" src="assets/img/decorations/deco-blob-6.svg" alt="deco-blob-6 decoration" data-inject-svg />
               </div>
-            </form>
+              <img class="icon bg-white" src="assets/img/icons/interface/check.svg" alt="check interface icon" data-inject-svg />
+            </div>
+            <h2 class="h1">Registration confirmed</h2>
+            <div class="lead mb-4">Thanks for signing up! 🙏 <br>You’ll receieve a call and an email confirming your registration shortly.</div>
+            <a class="btn btn-primary btn-lg" href="\">Continue browsing</a>
           </div>
         </div>
       </div>
@@ -140,10 +79,11 @@ include ('./components/header.php');
     <script type="text/javascript" src="assets/js/theme.js"></script>
 
     <script type="text/javascript">
-      jQuery("form:not([action])").on('submit', function(){return true;});
+      jQuery("form:not([action])").on('submit', function(){return false;});
     </script>
 
   </body>
+
 
 
 </html>

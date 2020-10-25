@@ -4969,7 +4969,7 @@ input[type="submit"].btn-block {
     padding: 0.5rem 1.25rem;
     margin-bottom: 0;
     list-style: none;
-    background-color: rgba(253, 45, 85, 0.1);
+    background-color: rgba(34, 122, 135, 0.1);
     border-radius: 200rem;
 }
 
@@ -15466,11 +15466,11 @@ span.flatpickr-weekday {
 }
 
 .flatpickr-current-month span.cur-month:hover {
-    background: rgba(253, 45, 85, 0.15);
+    background: rgba(34, 122, 135, 0.15);
 }
 
 .numInputWrapper:hover {
-    background: rgba(253, 45, 85, 0.15);
+    background: rgba(34, 122, 135, 0.15);
 }
 
 .flatpickr-day {
@@ -15489,7 +15489,7 @@ span.flatpickr-weekday {
 }
 
 .flatpickr-day:hover {
-    background: rgba(253, 45, 85, 0.1);
+    background: rgba(34, 122, 135, 0.1);
     border-color: transparent;
 }
 
@@ -19269,7 +19269,7 @@ article table tr {
     padding: 0;
     width: 3rem;
     height: 3rem;
-    background: rgba(253, 45, 85, 0.1);
+    background: rgba(34, 122, 135, 0.1);
     border-radius: 50%;
     color: #227a87 !important;
     display: flex;
@@ -19280,7 +19280,7 @@ article table tr {
 }
 
 .step-circles .nav-link:hover {
-    background: rgba(253, 45, 85, 0.15);
+    background: rgba(34, 122, 135, 0.15);
 }
 
 .step-circles .nav-item {
@@ -19306,7 +19306,7 @@ article table tr {
     left: 100%;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(253, 45, 85, 0.1);
+    background: rgba(34, 122, 135, 0.1);
     pointer-events: none;
 }
 
@@ -21630,7 +21630,7 @@ article table tr {
     padding: 0;
     width: 3rem;
     height: 3rem;
-    background: rgba(253, 45, 85, 0.1);
+    background: rgba(34, 122, 135, 0.1);
     border-radius: 50%;
     color: #227a87 !important;
     display: flex;
@@ -21640,7 +21640,7 @@ article table tr {
     transition: background-color 0.2s ease;
 }
 .step-circles .nav-link:hover {
-    background: rgba(253, 45, 85, 0.15);
+    background: rgba(34, 122, 135, 0.15);
 }
 .step-circles .nav-item {
     margin: 0 1.5rem;
@@ -21662,7 +21662,7 @@ article table tr {
     left: 100%;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(253, 45, 85, 0.1);
+    background: rgba(34, 122, 135, 0.1);
     pointer-events: none;
 }
 .wizard>ul:not(.step-circles) .btn {
