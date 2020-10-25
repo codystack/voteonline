@@ -1,53 +1,13 @@
-<!doctype html>
-<html lang="en">
-
-  
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-<head>
-
-
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-52115242-16');
-    </script>
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-KG38NH9');
-    </script>
-    <!-- End Google Tag Manager -->
-    <meta charset="utf-8">
-    <title>Leap Bootstrap Theme and HTML Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A corporate Bootstrap theme by Medium Rare">
-    <style>
-      @keyframes hideLoader{0%{ width: 100%; height: 100%; }100%{ width: 0; height: 0; }  }  body > div.loader{ position: fixed; background: white; width: 100%; height: 100%; z-index: 1071; opacity: 0; transition: opacity .5s ease; overflow: hidden; pointer-events: none; display: flex; align-items: center; justify-content: center;}body:not(.loaded) > div.loader{ opacity: 1;}body:not(.loaded){ overflow: hidden;}  body.loaded > div.loader{animation: hideLoader .5s linear .5s forwards;  } /* Typing Animation */.loading-animation {width: 6px;height: 6px;border-radius: 50%;animation: typing 1s linear infinite alternate;position: relative;left: -12px;}@keyframes typing {0% {background-color: rgba(100,100,100, 1);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),24px 0px 0px 0px rgba(100,100,100, 0.2);}25% {background-color: rgba(100,100,100, 0.4);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 2),24px 0px 0px 0px rgba(100,100,100, 0.2);}75% {background-color: rgba(100,100,100, 0.4);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),24px 0px 0px 0px rgba(100,100,100, 1);}}
-    </style>
-    <script type="text/javascript">
-      window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
-    </script>
-    <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="preload" as="font" href="assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" as="font" href="assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
-  </head>
-
-  <body>
-    <div class="loader">
-      <div class="loading-animation"></div>
-    </div>
+<?php
+include ('./components/header.php');
+?>
 
     <section class="min-vh-100 bg-primary-3 text-light py-5 o-hidden">
       <div class="container">
         <div class="row justify-content-center mb-md-6">
           <div class="col-auto">
             <a href="index-2.html">
-              <img src="assets/img/logo-white.svg" alt="Leap">
+              <img src="https://i.imgur.com/eOj70Vz.png" alt="VoteOnline Logo" Style="width: 300px">
             </a>
           </div>
         </div>
@@ -56,7 +16,7 @@
             <h1 class="display-1 mb-0">404</h1>
             <h2 class="h1">Page not found</h2>
             <div class="lead mb-4">It appears the page you were looking for couldn’t be found.</div>
-            <a class="btn btn-primary btn-lg" href="index-2.html">Go back to home</a>
+            <a class="btn btn-primary btn-lg" href="\">Go back to home</a>
           </div>
         </div>
       </div>
@@ -80,22 +40,12 @@
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-
-    <!-- 
-             This appears in the demo only.  This script ensures our demo countdowns are always showing a date in the future 
-             by altering the date before the countdown is initialized 
-        -->
+    <!-- Tidio Chat -->
+    <script src="//code.tidio.co/w21wepezusnmn1y15ukvzdhohe9xiten.js" async></script>
     <script type="text/javascript">
-      (function($){
-            var now             = new Date;
-            var day             = 864e5;
-            var weeksToAdd      = 2;
-            var tenWeeksFromNow = new Date(+now + day * 7 * weeksToAdd).toISOString().slice(0,10).replace(/\-/g, 'index.html');
-            $('[data-countdown-date].add-countdown-time').attr('data-countdown-date', tenWeeksFromNow);
-          })(jQuery);
+      tidioChatApi.display(true);
     </script>
 
-    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
 
     <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
     <script type="text/javascript" src="assets/js/aos.js"></script>
@@ -137,13 +87,11 @@
     <script type="text/javascript" src="assets/js/theme.js"></script>
 
     <script type="text/javascript">
-      // This script appears only in the demo - it disables forms with no action attribute to prevent 
-      // navigating away from the page.
       jQuery("form:not([action])").on('submit', function(){return false;});
     </script>
 
   </body>
 
 
-<!-- Mirrored from leap.mediumra.re/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Jun 2020 08:02:53 GMT -->
+
 </html>
