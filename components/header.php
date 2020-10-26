@@ -22,7 +22,8 @@
 	  <meta property="og:title" content="Vote Online&trade; :: Nigeria's First Online Voting Platform" />
 	  <meta property="og:description" content="Create an online contest with Vote Online, Own and run an online photo contest for your Peagents, Award Shows, Club Elections etc, for free or paid with our easy to use online voting platform."/>
     <meta name="keywords" content="ThankGodOkoro.codes,ThankGod Okoro,Vote Online,VoteOnline,online voting,beauty pageant,software,voting,election,online contest,contest,award shows,award,shows,online election,digital voting,event ticket management,event voting,fashion award,headies awards,amvca,Africa Magic Viewers' Choice Awards,branding">
-	  <meta property="og:image" content="https://i.imgur.com/3Vygtkm.png"/>
+    <meta property="og:image" content="https://i.imgur.com/3Vygtkm.png"/>
+    <meta name="author" content="ThankGod Okoro is a Software developer/programmer, Web + App Developer, UI/UX Designer, Brand Strategist & Product/Graphic Designer.">
     <!-- Favicon -->
     <link rel=icon href="https://i.imgur.com/kVguEsz.png" type=image/png>
     <!-- Favicon -->
