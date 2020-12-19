@@ -295,7 +295,7 @@ include ('./components/navbar.php');
                 <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/tnq.svg" alt="icon" data-inject-svg />
               </li>
               <li class="mx-3 mb-5">
-                <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/powerup.svg" alt="icon" data-inject-svg />
+                <img class="icon icon-md bg-primary-3" src="assets/img/logos/brand/mun.svg" alt="icon" data-inject-svg />
               </li>
             </ul>
           </div>
