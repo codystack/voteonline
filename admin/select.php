@@ -62,7 +62,7 @@ while( $row = mysqli_fetch_array($result) ){
           $response .= "</tr>";
 
           $response .= "<tr>";
-          $response .= "<th style='background-color: #ececef;'><strong>Request Dtate:</strong></th>";
+          $response .= "<th style='background-color: #ececef;'><strong>Request Date:</strong></th>";
           $response .= "<td>".date("d(D) M Y", strtotime($date))."</td>";
           $response .= "</tr>";
 
