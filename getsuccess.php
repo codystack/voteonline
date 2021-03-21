@@ -20,7 +20,7 @@ include ('./components/header.php');
               <img class="icon bg-white" src="assets/img/icons/interface/check.svg" alt="check interface icon" data-inject-svg />
             </div>
             <h2 class="h1">Request Sent</h2>
-            <div class="lead mb-4">Thanks for getting started! 🙏 <br>You’ll receieve a call shortly from our representative.</div>
+            <div class="lead mb-4">Thanks for getting started! 🙏 <br>You’ll receive a call shortly from our representative<br> or contact us via WhatsApp ✅<a href="tel:+2348032090933">+2348032090933</a>.</div>
             <a class="btn btn-primary btn-lg" href="\">Continue browsing</a>
           </div>
         </div>

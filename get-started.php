@@ -22,7 +22,6 @@ if (isset($_POST['getstarted_btn'])) {
             exit();   
 }
 ?>
-?>
 
     <section class="min-vh-100 py-5">
       <div class="container">
