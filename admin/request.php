@@ -39,7 +39,7 @@ include "./components/header.php";
 										</thead>
 										<tbody>
 										<?php
-											$request_query = "SELECT * FROM getstarted order by date ASC";
+											$request_query = "SELECT * FROM getstarted order by date DESC";
 											$result = mysqli_query($conn, $request_query);
 											if (mysqli_num_rows($result) > 0) {
 												// output data of each row
